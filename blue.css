@@ -1,0 +1,135 @@
+body {
+    background-image: url("blue design.png");
+    background-size: cover;
+}
+
+h1.cursive {
+  font-family: "cursive", cursive;
+  color: red;
+  text-align: center;
+  font-size: 400%;
+}
+
+h2 {
+  font-family: verdana;
+  color: red;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 40%;
+}
+
+p span {
+    color: white;
+    font-family: verdana;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+
+}
+
+/*div {
+    border: 1px solid black;
+    margin: 1px -50px -500px -10px;
+    background-color: black;
+}*/
+
+img {
+  /*margin-bottom: -100%;*/
+}
+
+.button1 {
+font-size: 115%;
+background-color: red;
+border-radius: 5px;
+padding: 5px 55px;
+border: 2px solid red;
+
+}
+
+.button2 {
+font-size: 115%;
+background-color: red;
+border-radius: 5px;
+padding: 5px 55px;
+border: 2px solid red;
+/*margin-left: 55%;*/
+
+}
+
+.button1:hover, .button1:focus {
+    background-color: #2E9AFE;
+    border-color: red;
+}
+
+.button2:hover, .button2:focus {
+    background-color: #CC2EFA;
+    border-color: red;
+}
+
+.space {
+  margin: auto;
+  width: 10%;
+  height: 5%;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.dropbtn {
+    /*background-color: red;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: white;
+    cursor: pointer;*/
+    font-size: 115%;
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px 55px;
+    border: 2px solid white;
+    margin-top: -200%;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: white;
+}
+
+.dropdown {
+    margin-left: 65%;
+    margin-top: -75%;
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+    color: black;
+}
